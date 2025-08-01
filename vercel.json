@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "main.py"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@DATABASE_URL",
+    "GEMINI_API_KEY": "@GEMINI_API_KEY",
+    "NEWS_API_KEY": "@NEWS_API_KEY",
+    "USER_PREFERENCE": "@USER_PREFERENCE"
+  }
+}
