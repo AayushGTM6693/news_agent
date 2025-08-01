@@ -20,7 +20,7 @@ frozenlist==1.7.0
 google-ai-generativelanguage==0.4.0
 google-api-core==2.25.1
 google-auth==2.40.3
-google-genai==1.28.0
+google-genai==0.5.0
 google-generativeai==0.3.1
 googleapis-common-protos==1.70.0
 greenlet==3.2.3
@@ -83,6 +83,5 @@ urllib3==1.26.20
 uvicorn==0.24.0
 virtualenv==20.21.1
 webencodings==0.5.1
-websockets==15.0.1
 xattr==0.10.1
 yarl==1.20.1
